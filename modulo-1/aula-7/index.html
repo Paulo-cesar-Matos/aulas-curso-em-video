@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de Textos</title>
+    <style>
+        mark {
+            background-color: limegreen;
+        }
+
+        abbr {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h1>Contém Ironia</h1>
+    <h2>Negrito / Destaque</h2>
+    
+    <abbr title="não semantico">
+        <p>Senhores, todos da TI sabemos que <b>nunca se deve atualizar quaisquiser algo.</b></p>
+    </abbr>
+    
+    <abbr title="semantico">
+        <p>Senhores, todos da TI sabemos que <strong>nunca se deve atualizar quaisquiser algo.</strong></p>
+    </abbr>
+    
+    <h2>Itálico / Ênfase</h2>
+    
+    <abbr title="não semantico">
+        <p>Mesmo que o chefe queira. <i>Que na verdade... </i>não quer...</p>
+    </abbr>
+    
+    <p>Mesmo que o chefe queira. <em>Que na verdade... </em>não quer...</p>
+    
+    <h2>Texto marcado</h2>
+    
+    <p>Não compensa pq tá funcionando normal, <mark>e se tá funcionando não mexa</mark>.</p>
+    
+    <h2>Texto grande e pequeno</h2>
+    
+    <!-- o &quot; (código das aspas duplas, usada pra colocar na tag abbr, parece que está prestes a ser extinta)-->
+    <p>"Ain mais erh pq é pra <abbr title="tag &quot;big&quot; prestes a ser extinta"><big>bota isso e aquilo</big></abbr> e um <small>e pipipi popopopo</small> (galinha)"</p>
+    
+    <h2>Texto deletado</h2>
+    
+    <p>Deixa quieto, tem projeto rodando desde a <a href="https://pt.wikipedia.org/wiki/Dissolu%C3%A7%C3%A3o_da_Iugosl%C3%A1via" style="color: black; text-decoration: none;" target="_blank"><del>Dissolução da Iugoslávia</del></a> muito tempo, e até hoje nunca teve nenhum problema.</p>
+    
+    <h2>Texto inserido</h2>
+    
+    <abbr title="não semantico">
+        <p>A não ser que alguém, <u>tenha se intrometendo onde não deve.</u></p>
+    </abbr>
+    
+    <abbr title="semantico">
+        <p>A não ser que alguém, <ins>tenha se intrometendo onde não deve.</ins></p>
+    </abbr>
+    
+    <h2>Texto sobrescrito</h2>
+    
+    <p>Agora se for pra atualizar pra hj em dia... é <sup>meio</sup>complicado...</p>
+    
+    <h2>Texto subscrito</h2>
+    
+    <p>Agora se for pra atualizar pra hj em dia... é <sub>meio</sub>complicado...</p>
+
+</body>
+</html>
