@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+ol {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 15px;
+    border-radius: 5px;
+    border-style: outset;
+    padding: 5px;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: rgb(255, 207, 149);
+    transition: 0.5s;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+}
