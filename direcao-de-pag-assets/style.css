@@ -11,11 +11,11 @@ h1 {
 
 ol {
     list-style: none;
+    text-align: center;
 }
 
 li {
     display: inline-block;
-    text-align: center;
     margin-right: 15px;
     margin-bottom: 15px;
     border-radius: 5px;
